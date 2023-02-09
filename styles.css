@@ -1,0 +1,202 @@
+/*general*/
+.b {
+    border: 2px dotted red;
+}
+
+body {
+    margin: 1px;
+    padding: 10px;
+    border: 2px dotted blue;
+
+    display:flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    background-color: lightblue;
+}
+
+.section-params {
+    border: 2px dotted red;
+    margin: 2px auto;
+    width: 980px;
+}
+
+
+
+/*section-title-----------------------------------------------------------------------------*/
+.section-title {
+    height: 200px;
+}
+
+#title-title {
+    color: red;
+}
+
+#city-info {
+    color: red;
+}
+
+/*section-activities-----------------------------------------------------------------------------*/
+.section-activities {
+    height: 300px;
+}
+
+#activities-title {
+    display:inline-block;
+    border: 2px dotted red;
+    margin: 14px auto;
+    color:red;
+}
+
+.activities-wrapper {
+    border: 2px dotted black;
+    display: flex;
+}
+
+.activities-params {
+    border: 2px dotted green;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 230px;
+    width: 250px;
+    
+}
+
+.activity1 {
+    margin-left: auto;
+}
+
+.activity1-background {
+    position:absolute;
+    border: 2px dotted purple;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 230px;
+    width: 250px;
+    background-color: aquamarine;
+}
+
+.activity1-label {
+    position:absolute;
+    margin-top:212px;
+    margin-bottom:0px;
+    margin-left:149px;
+    margin-right: 0px;
+    background-color: blue;
+}
+
+.activity1-text {
+    position:absolute;
+    border: 2px dotted red;
+    margin: 24px;
+    height: 180px;
+    width: 200px;
+    background-color: white;
+    visibility: hidden;
+}
+
+.activity1-background:hover + .activity1-text {
+    background-color: white;
+    visibility: visible;
+}
+
+.activity1-text:hover {
+    background-color: white;
+    visibility: visible;
+}
+
+.activity2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity2-background {
+    position:absolute;
+    border: 2px dotted purple;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 230px;
+    width: 250px;
+    background-color: aquamarine;
+
+}
+
+.activity2-label {
+    position:absolute;
+    margin-top:212px;
+    margin-bottom:0px;
+    margin-left:149px;
+    margin-right: 0px;
+    background-color: blue;
+}
+
+.activity2-text {
+    position:absolute;
+    border: 2px dotted red;
+    margin: 24px;
+    height: 180px;
+    width: 200px;
+    background-color: white;
+    visibility: hidden;
+}
+
+.activity2-background:hover + .activity2-text {
+    background-color: white;
+    visibility: visible;
+}
+
+.activity2-text:hover {
+    background-color: white;
+    visibility: visible;
+}
+
+.activity3 {
+    margin-right: auto;
+}
+
+.activity3-background {
+    position:absolute;
+    border: 2px dotted purple;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 230px;
+    width: 250px;
+    background-color: aquamarine;
+
+}
+
+.activity3-label {
+    position:absolute;
+    margin-top:212px;
+    margin-bottom:0px;
+    margin-left:149px;
+    margin-right: 0px;
+    background-color: blue;
+}
+
+.activity3-text {
+    position:absolute;
+    border: 2px dotted red;
+    margin: 24px;
+    height: 180px;
+    width: 200px;
+    background-color: white;
+    visibility: hidden;
+}
+
+.activity3-background:hover + .activity3-text {
+    background-color: white;
+    visibility: visible;
+}
+
+.activity3-text:hover {
+    background-color: white;
+    visibility: visible;
+}
+
+/*section-card-----------------------------------------------------------------------------*/
+.section-card {
+    height: 200px;
+
+}
