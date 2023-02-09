@@ -10,7 +10,7 @@ h1>span{
     top:35%;
     position: absolute;
     transition: translateY(-50%);
-    margin-top: -100px;
+    margin-top: -110px;
     margin-left: -135px;
     padding: 0;
     width:100%;
@@ -35,65 +35,59 @@ h1>span{
     -1px -1px 0 #fff;
   }
 
-.b {
-    border: 2px dotted red;
-}
 
 body {
-    margin: 1px;
-    padding: 10px;
-    border: 2px dotted blue;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
 
     display:flex;
     flex-direction: column;
 
     text-align: center;
 
-    background-color: lightblue;
+    background:linear-gradient(#fff1e6,lightblue) ;
 }
 
 .section-params {
-    border: 2px dotted red;
-    margin: 2px auto;
-    width: 980px;
+    margin: 0px 0px;
+    width: auto;
 }
 
 
 
 /*section-title-----------------------------------------------------------------------------*/
 .section-title {
-    height: 200px;
+    height: 220px;
     background-image: url("images/morska.jpg");
     background-size: cover;
 }
 
-#title-title {
-    color: #DADBDD;
-}
-
 #city-info {
-    color: red;
+    color: #03045e;
 }
 
 /*section-activities-----------------------------------------------------------------------------*/
 .section-activities {
     height: 300px;
+    margin-bottom: 18px;
 }
 
 #activities-title {
-    display:inline-block;
-    border: 2px dotted red;
-    margin: 14px auto;
-    color:red;
+    display:block;
+    padding: 10px;
+    margin: 0px auto;
+    margin-bottom: 14px;
+    color:#03045e;
+    background-color: #fff1e6;
+
 }
 
 .activities-wrapper {
-    border: 2px dotted black;
     display: flex;
 }
 
 .activities-params {
-    border: 2px dotted green;
     margin-top: 2px;
     margin-bottom: 2px;
     height: 230px;
@@ -107,13 +101,14 @@ body {
 
 .activity1-background {
     position:absolute;
-    border: 2px dotted purple;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 230px;
     width: 250px;
     background-image: url("images/morska.jpg");
     background-size: cover;
+    border-radius: 8px;
+
 }
 
 .activity1-label {
@@ -123,16 +118,16 @@ body {
     margin-left:68px;
     margin-right: 0px;
     padding: 2px 8px;
-    background-color: blue;
     border-radius: 100px;
-
+    color: #fff1e6;
+    text-shadow: 0px 0px 1px#03045e;
+    backdrop-filter: blur(2px);
 }
 
 .activity1-text {
     padding: 10px;
     text-align: start;
     position:absolute;
-    border: 2px dotted red;
     margin: 15px;
     height: auto;
     width: 200px;
@@ -157,13 +152,13 @@ body {
 
 .activity2-background {
     position:absolute;
-    border: 2px dotted purple;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 230px;
     width: 250px;
     background-image: url("images/pametnik.jpg");
     background-size: cover;
+    border-radius: 8px;
 }
 
 .activity2-label {
@@ -173,17 +168,17 @@ body {
     margin-bottom:0px;
     margin-left:23px;
     margin-right: 0px;
-    background-color: blue;
+    color: #fff1e6;
+    text-shadow: 0px 0px 1px#03045e;
+    backdrop-filter: blur(2px);
     padding: 2px 8px;
     border-radius: 100px;
-
 }
 
 .activity2-text {
     padding: 10px;
     text-align: start;
     position:absolute;
-    border: 2px dotted red;
     margin: 15px;
     height: auto;
     width: 200px;
@@ -208,13 +203,13 @@ body {
 
 .activity3-background {
     position:absolute;
-    border: 2px dotted purple;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 230px;
     width: 250px;
     background-image: url("images/far.jpg");
     background-size: cover;
+    border-radius: 8px;
 }
 
 .activity3-label {
@@ -223,15 +218,16 @@ body {
     margin-bottom:0px;
     margin-left:74px;
     margin-right: 0px;
-    background-color: blue;
+    backdrop-filter: blur(2px);
     padding: 2px 8px;
     border-radius: 100px;
+    color: #fff1e6;
+    text-shadow: 0px 0px 1px#03045e;
 }
 
 .activity3-text {
     padding: 4px;
     position:absolute;
-    border: 2px dotted red;
     margin: 24px;
     height: auto;
     width: 200px;
@@ -247,10 +243,4 @@ body {
 .activity3-text:hover {
     backdrop-filter: blur(2px);
     visibility: visible;
-}
-
-/*section-card-----------------------------------------------------------------------------*/
-.section-card {
-    height: 200px;
-
 }
