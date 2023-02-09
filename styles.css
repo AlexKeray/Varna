@@ -27,6 +27,8 @@ body {
 /*section-title-----------------------------------------------------------------------------*/
 .section-title {
     height: 200px;
+    background-image: url("images/morska.jpg");
+    background-size: cover;
 }
 
 #title-title {
@@ -74,35 +76,39 @@ body {
     margin-bottom: 0px;
     height: 230px;
     width: 250px;
-    background-color: aquamarine;
+    background-image: url("images/morska.jpg");
+    background-size: cover;
 }
 
 .activity1-label {
     position:absolute;
-    margin-top:212px;
+    margin-top:202px;
     margin-bottom:0px;
-    margin-left:149px;
+    margin-left:68px;
     margin-right: 0px;
+    padding: 2px 8px;
     background-color: blue;
 }
 
 .activity1-text {
+    padding: 10px;
+    text-align: start;
     position:absolute;
     border: 2px dotted red;
-    margin: 24px;
-    height: 180px;
+    margin: 15px;
+    height: auto;
     width: 200px;
-    background-color: white;
+    backdrop-filter: blur(2px);
     visibility: hidden;
 }
 
 .activity1-background:hover + .activity1-text {
-    background-color: white;
+    backdrop-filter: blur(2px);
     visibility: visible;
 }
 
 .activity1-text:hover {
-    background-color: white;
+    backdrop-filter: blur(2px);
     visibility: visible;
 }
 
@@ -118,36 +124,40 @@ body {
     margin-bottom: 0px;
     height: 230px;
     width: 250px;
-    background-color: aquamarine;
-
+    background-image: url("images/pametnik.jpg");
+    background-size: cover;
 }
 
 .activity2-label {
+    width: 190px;
     position:absolute;
-    margin-top:212px;
+    margin-top:186px;
     margin-bottom:0px;
-    margin-left:149px;
+    margin-left:30px;
     margin-right: 0px;
     background-color: blue;
 }
 
 .activity2-text {
+    padding: 10px;
+    text-align: start;
     position:absolute;
     border: 2px dotted red;
-    margin: 24px;
-    height: 180px;
+    margin: 15px;
+    height: auto;
     width: 200px;
-    background-color: white;
+    backdrop-filter: blur(2px);
     visibility: hidden;
+    font-size: 14px;
 }
 
 .activity2-background:hover + .activity2-text {
-    background-color: white;
+    backdrop-filter: blur(2px);
     visibility: visible;
 }
 
 .activity2-text:hover {
-    background-color: white;
+    backdrop-filter: blur(2px);
     visibility: visible;
 }
 
@@ -162,36 +172,37 @@ body {
     margin-bottom: 0px;
     height: 230px;
     width: 250px;
-    background-color: aquamarine;
-
+    background-image: url("images/far.jpg");
+    background-size: cover;
 }
 
 .activity3-label {
     position:absolute;
-    margin-top:212px;
+    margin-top:206px;
     margin-bottom:0px;
-    margin-left:149px;
+    margin-left:78px;
     margin-right: 0px;
     background-color: blue;
 }
 
 .activity3-text {
+    padding: 4px;
     position:absolute;
     border: 2px dotted red;
     margin: 24px;
-    height: 180px;
+    height: auto;
     width: 200px;
-    background-color: white;
+    backdrop-filter: blur(2px);
     visibility: hidden;
 }
 
 .activity3-background:hover + .activity3-text {
-    background-color: white;
+    backdrop-filter: blur(2px);
     visibility: visible;
 }
 
 .activity3-text:hover {
-    background-color: white;
+    backdrop-filter: blur(2px);
     visibility: visible;
 }
 
