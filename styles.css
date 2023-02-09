@@ -1,4 +1,40 @@
 /*general*/
+
+@font-face {
+    font-family: metal-ford;
+    src:url("fonts/2.ttf")
+}
+
+h1>span{
+    /*color:white;*/
+    top:35%;
+    position: absolute;
+    transition: translateY(-50%);
+    margin-top: -100px;
+    margin-left: -135px;
+    padding: 0;
+    width:100%;
+    text-align: start;
+    font-family: metal-ford;
+    font-style: italic;
+    font-size:2em;
+    letter-spacing: 5px;
+    background:linear-gradient(#262626,#eaeaea,#262626);
+    -webkit-background-clip: text;
+    color:transparent;
+  }
+  h1>span:nth-child(1)
+  {
+    z-index: 2;
+  }
+  h1>span:nth-child(2)
+  {
+    z-index: 1;
+    text-shadow: 1px 1px 0 #262626, 2px 2px 0 #262626, 3px 3px 0 #262626,
+    4px 4px 0 #262626, 5px 5px 0 #262626, 1px 1px 0 #262626, 6px 20px 20px rgba(0,0,0,1),
+    -1px -1px 0 #fff;
+  }
+
 .b {
     border: 2px dotted red;
 }
@@ -32,7 +68,7 @@ body {
 }
 
 #title-title {
-    color: red;
+    color: #DADBDD;
 }
 
 #city-info {
@@ -88,6 +124,8 @@ body {
     margin-right: 0px;
     padding: 2px 8px;
     background-color: blue;
+    border-radius: 100px;
+
 }
 
 .activity1-text {
@@ -131,11 +169,14 @@ body {
 .activity2-label {
     width: 190px;
     position:absolute;
-    margin-top:186px;
+    margin-top:182px;
     margin-bottom:0px;
-    margin-left:30px;
+    margin-left:23px;
     margin-right: 0px;
     background-color: blue;
+    padding: 2px 8px;
+    border-radius: 100px;
+
 }
 
 .activity2-text {
@@ -178,11 +219,13 @@ body {
 
 .activity3-label {
     position:absolute;
-    margin-top:206px;
+    margin-top:202px;
     margin-bottom:0px;
-    margin-left:78px;
+    margin-left:74px;
     margin-right: 0px;
     background-color: blue;
+    padding: 2px 8px;
+    border-radius: 100px;
 }
 
 .activity3-text {
